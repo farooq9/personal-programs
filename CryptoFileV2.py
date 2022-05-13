@@ -1,5 +1,3 @@
-import binascii
-from inspect import Traceback
 from cryptography.fernet import Fernet
 
 # Generate a new key on your choice
@@ -47,7 +45,7 @@ def banner():
     print('    ██║░░██╗██╔══██╗░░╚██╔╝░░██╔═══╝░░░░██║░░░██║░░██║██╔══╝░░██║██║░░░░░██╔══╝░░')
     print('    ╚█████╔╝██║░░██║░░░██║░░░██║░░░░░░░░██║░░░╚█████╔╝██║░░░░░██║███████╗███████╗')
     print('    ░╚════╝░╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░░░░░░░╚═╝░░░░╚════╝░╚═╝░░░░░╚═╝╚══════╝╚══════╝')
-    print('                                                                     version 2.0 ')
+    print('    Abdul Farooq                                                     version 2.0 ')
 banner()
 
 # the 4 choices
